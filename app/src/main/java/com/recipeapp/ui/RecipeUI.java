@@ -71,8 +71,8 @@ public class RecipeUI {
                 System.out.print("Main Ingredients: ");
                 String str = String.join(",", recipe.getIngredients());
                 System.out.println(str);
+                System.out.println("-----------------------------------");
             }
-            System.out.println("-----------------------------------");
         } catch (IOException e) {
             e.printStackTrace();
         }
